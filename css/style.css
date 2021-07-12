@@ -342,6 +342,16 @@ grid-gap: 2rem;
             }
 }
 @media(max-width: 786px){
+    .showcase-content h1{
+        
+        font-family: 'NotoSansJP-Light.otf';
+        font-size: 3rem;
+    }
+    .fa-chevron-right{
+        
+        position: relative;
+        left:20px;
+    }
     .showcase::after {
         box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
     }
