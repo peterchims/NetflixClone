@@ -329,12 +329,16 @@ grid-gap: 2rem;
         grid-template-columns: repeat(2,1fr);
     }
     #tab-2-content .tab-2-content-top .btn-rlg{
-        font-size: 1rem;
-        padding: 20px 20px;
+        font-size: .75rem;
+        font-weight: bolder;
+        margin-right: 20px;
+        width: 200px;
+        }
+        p.text-lg{
+            font-size: 1.2rem;
         }
         #tab-3-content .text-center .btn-rl{
             font-size: 1rem;
-            padding: 20px 20px;
             }
 }
 @media(max-width: 700px){
@@ -362,9 +366,36 @@ grid-gap: 2rem;
         }
         #tab-3-content .text-center .btn-rl{
             font-size: 1rem;
-            padding: 20px 20px;
+            padding-right:15px;
+            padding-left:15px;
             }
             #tab-1-content .tab-1-content-inner .btn-click{
                 font-size: 1rem;
+               padding-right:20px;
+               padding-left:20px;
+                }
+                .table{
+                    width: 100%;
+                    font-size: 0.6rem;
+                }
+                .table thead th{
+                    text-transform: uppercase;
+                    padding: 0.8rem;
+                }
+                .table tbody tr td{
+                    color: #999;
+                    padding: 0.8rem 1.5rem;
+                    text-align:left;
+                    /* font-size: 0.5rem; */
+                }
+                
+                .table tbody tr td:first-child{
+                    color: #999;
+                    padding: 0.5rem 1rem;
+                    text-align: left;
+                }
+                
+                .table tbody tr:nth-child(odd){
+                    background-color: #222;
                 }
 }
