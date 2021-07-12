@@ -341,7 +341,7 @@ grid-gap: 2rem;
             font-size: 1rem;
             }
 }
-@media(max-width: 700px){
+@media(max-width: 786px){
     .showcase::after {
         box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
     }
@@ -375,12 +375,16 @@ grid-gap: 2rem;
                padding-left:20px;
                 }
                 .table{
-                    width: 100%;
+                    width: 50%;
                     font-size: 0.6rem;
+                
                 }
                 .table thead th{
                     text-transform: uppercase;
-                    padding: 0.8rem;
+                    padding:0.2rem;
+                    background-color: red;
+                    position:relative;
+                    right:1px;
                 }
                 .table tbody tr td{
                     color: #999;
